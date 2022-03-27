@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    background-color:rgb(22, 22, 22);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top{
+    background-color: #1F2937 ;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+    padding: 0px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.header .headerlogo img{
+    height:80px;
+    width:auto;
+    border-radius: 8px;
+}
+
+.p1{
+    display: flex;
+    gap:15px;
+}
+
+.p1 a{
+    padding: auto ;
+    text-decoration: none;
+    background-color: rgb(255, 60, 93);
+    color: rgb(178, 230, 96);
+    margin: auto;
+    border-radius: 8px;
+    padding: 8px;
+    flex: 1 1 auto;
+    transition: 0.3s;
+}
+
+a:hover{
+    padding:12px;
+    font-size: 20px;
+    background-color:rgb(32, 32, 32);
+    color:#ffffff;
+}
+
+.hbody{
+    display: flex;
+    justify-content: space-between;
+    margin:50px ;
+    padding:0px 100px;
+}
+
+.bparth{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    
+}
+
+.bpartl{
+    font-size: 20px;
+}
+
+.hbody button{
+    border-radius: 7px;
+    background-color: #3882F6;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    border:none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mainh{
+    font-size:36px;
+    font-weight: bold;
+    color:#ffffff;
+    text-align:center;
+
+}
+
+.sub{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub img{
+    border:#3882F6 solid 4px;
+    border-radius: 8px;
+}
+
+.ssub{
+    margin: 10px;
+}
+
+.img1{
+    height: 400px;
+    width: auto;
+}
+
+.img2{
+    height: 400px;
+    width: auto;
+}
+
+.img3{
+    height: 400px;
+    width: auto;
+}
+
+.img4{
+    height: 400px;
+    width: auto;
+}
+
+.top .footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.midp2{
+    display: flex;
+    flex-direction:column;
+    margin:0px 100px;
+    background-color:#303030;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.midp2 .con{
+    text-align: center;
+    font-size: 36px;
+    font-family: light;
+    font-style: italic;
+    color:#ffffff;
+}
+
+.midp2 .god{
+    text-align: right;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.mainl{
+    display: flex;
+    background-color:#3882F6;
+    border-radius: 8px;
+    margin: 100px;
+    padding : 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.mainl .t1{
+    font-weight: bold;
+    font-size:24px;
+    text-align:left;
+}
+
+.mainl .t2{
+    text-align: left;
+}
+
+.mright button{
+    background-color:#3882F6;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    color: white;
+}
+
+.sub p{
+    color: white;
+}
